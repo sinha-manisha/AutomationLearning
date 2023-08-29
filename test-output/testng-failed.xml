@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExercise]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation App(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automationExercise.testCases.TC_000_HomePageTest">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_000_HomePageTest -->
+      <class name="com.automationExercise.testCases.TC_001_RegisterUserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyRegisterPage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_001_RegisterUserTest -->
+      <class name="com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyScrollWithoutArrowKey"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest -->
+      <class name="com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest">
+        <methods>
+          <include name="verifyScrollUsingArrowKey"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest -->
+      <class name="com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyDownloadPurchaseInvoice"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest -->
+      <class name="com.automationExercise.testCases.TC_002_LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- Automation App(failed) -->
+</suite> <!-- Failed suite [AutomationExercise] -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-09T16:34:03 IST" name="AutomationExercise" finished-at="2023-08-09T16:37:31 IST" duration-ms="208848">
+    <groups>
+    </groups>
+    <test started-at="2023-08-09T16:34:03 IST" name="Automation App" finished-at="2023-08-09T16:37:31 IST" duration-ms="208848">
+      <class name="com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest@2c6ee758]" started-at="2023-08-09T16:36:40 IST" name="setUp" finished-at="2023-08-09T16:36:59 IST" duration-ms="19372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyScrollUsingArrowKey()[pri:0, instance:com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest@2c6ee758]" started-at="2023-08-09T16:36:59 IST" name="verifyScrollUsingArrowKey" finished-at="2023-08-09T16:37:05 IST" duration-ms="5751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrollUsingArrowKey -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest@2c6ee758]" started-at="2023-08-09T16:37:07 IST" name="teardown" finished-at="2023-08-09T16:37:07 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest -->
+      <class name="com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest@4647881c]" started-at="2023-08-09T16:34:03 IST" name="setUp" finished-at="2023-08-09T16:34:44 IST" duration-ms="41134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDownloadPurchaseInvoice()[pri:0, instance:com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest@4647881c]" started-at="2023-08-09T16:34:44 IST" name="verifyDownloadPurchaseInvoice" finished-at="2023-08-09T16:36:24 IST" duration-ms="100284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadPurchaseInvoice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest@4647881c]" started-at="2023-08-09T16:36:34 IST" name="teardown" finished-at="2023-08-09T16:36:40 IST" duration-ms="6441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest -->
+      <class name="com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest@640dc4c6]" started-at="2023-08-09T16:37:07 IST" name="setUp" finished-at="2023-08-09T16:37:21 IST" duration-ms="13787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyScrollWithoutArrowKey()[pri:0, instance:com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest@640dc4c6]" started-at="2023-08-09T16:37:21 IST" name="verifyScrollWithoutArrowKey" finished-at="2023-08-09T16:37:25 IST" duration-ms="3945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrollWithoutArrowKey -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest@640dc4c6]" started-at="2023-08-09T16:37:26 IST" name="teardown" finished-at="2023-08-09T16:37:31 IST" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest -->
+    </test> <!-- Automation App -->
+  </suite> <!-- AutomationExercise -->
+</testng-results>

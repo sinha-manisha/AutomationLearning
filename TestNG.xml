@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExercise">
+	<!--<listeners>
+		<listener class-name="com.automationExercise.utilities.AllureReport"/>
+	</listeners>-->
+  <test thread-count="5" name="Automation App">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+		 <class name="com.automationExercise.testCases.TC_000_HomePageTest"/>
+         <!--<class name="com.automationExercise.testCases.TC_001_RegisterUserTest"/>
+         <class name="com.automationExercise.testCases.TC_002_LoginTest"/>
+		 <class name="com.automationExercise.testCases.TC_003_InvalidLoginTest"/>
+		 <class name="com.automationExercise.testCases.TC_004_LogOutTest"/>
+		 <class name="com.automationExercise.testCases.TC_005_RegisteredEmailTest"/>
+		 <class name="com.automationExercise.testCases.TC_006_ContactUsTest"/>
+		 <class name="com.automationExercise.testCases.TC_007_TestCasesTest"/>
+		 <class name="com.automationExercise.testCases.TC_008_ProductPageTest"/>
+		 <class name="com.automationExercise.testCases.TC_009_SearchTest"/>
+		 <class name="com.automationExercise.testCases.TC_010_SubscriptionTest"/>
+		 <class name="com.automationExercise.testCases.TC_011_Cart_SubscriptionTest"/>
+		 <class name="com.automationExercise.testCases.TC_012_AddProductsToCartTest"/>
+		 <class name="com.automationExercise.testCases.TC_013_ProductQtyInCartTest"/>
+		 <class name="com.automationExercise.testCases.TC_014_RegisterWhileCheckoutTest"/>
+		 <class name="com.automationExercise.testCases.TC_015_RegisterBeforeCheckoutTest"/>
+		 <class name="com.automationExercise.testCases.TC_016_LoginBeforeCheckoutTest"/>
+		 <class name="com.automationExercise.testCases.TC_017_RemoveProductsFromCartTest"/>
+		 <class name="com.automationExercise.testCases.TC_018_CategoryProductsTest"/>
+		 <class name="com.automationExercise.testCases.TC_019_ViewBrandsTest"/>
+		 <class name="com.automationExercise.testCases.TC_020_SearchProductNVerifyCartAfterLoginTest"/>
+		 <class name="com.automationExercise.testCases.TC_021_ReviewOnProductTest"/>
+		 <class name="com.automationExercise.testCases.TC_022_RcommendedProductToCartTest"/>
+		 <class name="com.automationExercise.testCases.TC_023_AddressInCheckoutTest"/>
+		 <class name="com.automationExercise.testCases.TC_024_DownloadPurchaseInvoiceTest"/>
+		 <class name="com.automationExercise.testCases.TC_025_ScrollUsingArrowKeyTest"/>
+		 <class name="com.automationExercise.testCases.TC_026_ScrollWithoutArrowKeyTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

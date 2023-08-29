@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetBanking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation App(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automationExercise.testCases.TC_RegisterUser_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automationExercise.testCases.TC_RegisterUser_001 -->
+    </classes>
+  </test> <!-- Automation App(failed) -->
+</suite> <!-- Failed suite [InetBanking] -->
