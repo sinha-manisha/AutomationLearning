@@ -1,5 +1,6 @@
 package com.automationExercise.pageObjects;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.Keys;
@@ -7,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.automationExcercise.base.BaseClass;
@@ -185,7 +187,8 @@ public class HomePage extends BaseClass{
 		Thread.sleep(3000);
 	}
 	@Step("Verifying the Home Page")
-	public void verifyHomePage(String testFolder) {
+	public void verifyHomePage(String testFolder) throws InterruptedException {
+		Thread.sleep(15000);
 //		//Getting url
 		String title=driver.getTitle();
 		if(title.equalsIgnoreCase(homeTitle))
