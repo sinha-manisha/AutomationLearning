@@ -52,8 +52,17 @@ public class BaseClass {
 		switch(br)
 		{
 		case "chrome":
+			// Configure Chrome options for headless mode
+	        ChromeOptions options = new ChromeOptions();
+	        options.addArguments("--headless");  // Run in headless mode
+	        options.addArguments("--no-sandbox"); // Needed for CI environments
+	        options.addArguments("--disable-dev-shm-usage"); // Prevent crashes
+	        options.addArguments("--remote-allow-origins=*"); // Fixes some connection issues
+
+	        // Initialize WebDriver
+	       
 			System.setProperty("webdriver.chrome.driver", config.getChromePath());
-			ChromeOptions options =new ChromeOptions();
+			
 			String downloadFile=System.getProperty("user.dir") + File.separator + "DownloadFile";
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 			chromePrefs.put("profile.default_content_settings.popups", 0);
