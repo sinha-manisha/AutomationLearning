@@ -11,6 +11,7 @@ public class TC_000_HomePageTest extends BaseClass{
 	
 	@Test(priority=0)
 	public void verifyHomePage() throws InterruptedException {
+		Thread.sleep(15000);
 		HomePage home=new HomePage();
 		home.verifyHomePage("HomeTest");
 		//home.verifyLogo();
