@@ -191,12 +191,12 @@ public class HomePage extends BaseClass{
 		if(title.equalsIgnoreCase(homeTitle))
 		{
 			//capturing screenshot to verify home page
-			captureScreenshot(testFolder,"hometest");
+			//captureScreenshot(testFolder,"hometest");
 			Log.info("Home Page Verified");
 			Assert.assertTrue(true);
 		}
 		else {
-			captureScreenshot(testFolder,"hometest_fail");
+			//captureScreenshot(testFolder,"hometest_fail");
 			Log.info("Home Page Verification Failed");
 			Assert.assertTrue(false);
 		}
