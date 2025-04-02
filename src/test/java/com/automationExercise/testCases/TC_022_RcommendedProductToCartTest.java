@@ -8,7 +8,7 @@ import com.automationExercise.pageObjects.HomePage;
 
 public class TC_022_RcommendedProductToCartTest extends BaseClass{
 	@Test
-	public void verifyTC_RcommendedProductToCart()
+	public void verifyTC_RcommendedProductToCart() throws InterruptedException
 	{
 		HomePage home=new HomePage();
 		home.verifyHomePage("RcommendedProductToCartTest");

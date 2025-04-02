@@ -9,7 +9,7 @@ import com.automationExercise.pageObjects.HomePage;
 public class TC_011_Cart_SubscriptionTest extends BaseClass{
 
 	@Test(priority=0)
-	public void verifyCartSubscription() {
+	public void verifyCartSubscription() throws InterruptedException {
 		HomePage home=new HomePage();
 		home.verifyHomePage("CartSuscriptionTest");
 		home.clickCart();
