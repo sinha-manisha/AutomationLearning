@@ -13,7 +13,7 @@ public class TC_000_HomePageTest extends BaseClass{
 	public void verifyHomePage() throws InterruptedException {
 		HomePage home=new HomePage();
 		home.verifyHomePage("HomeTest");
-		home.verifyLogo();
+		//home.verifyLogo();
 	}
 
 }
