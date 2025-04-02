@@ -219,17 +219,18 @@ public class HomePage extends BaseClass{
 	}
 	@Step("Verifying ' Logged in as username' at top")
 	public void verifyLoginMsg(String uname,String testFolder) throws InterruptedException {
+		
 		//Checking logged in msg
 		if(getLoggedMsg().equalsIgnoreCase("Logged in as "+uname))
 		{
 			Log.info("Login message verification successful");
-			captureScreenshot(testFolder,"Login_Msg");
+			//captureScreenshot(testFolder,"Login_Msg");
 			Assert.assertTrue(true);
 		}
 		else
 		{
 			Log.warn("Login message verification failed");
-			captureScreenshot(testFolder, "Login_Msg_fail");
+			//captureScreenshot(testFolder, "Login_Msg_fail");
 			Assert.assertTrue(false);
 		}
 		Thread.sleep(1000);
