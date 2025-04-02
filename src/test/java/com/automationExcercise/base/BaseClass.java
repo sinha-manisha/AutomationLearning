@@ -61,14 +61,14 @@ public class BaseClass {
 
 	        // Initialize WebDriver
 	       
-			System.setProperty("webdriver.chrome.driver", config.getChromePath());
-			
-			String downloadFile=System.getProperty("user.dir") + File.separator + "DownloadFile";
-			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-			chromePrefs.put("profile.default_content_settings.popups", 0);
-			chromePrefs.put("download.default_directory", downloadFile);
-			//options.addExtensions(new File(".//Extensions/extension_3_17_1_0.crx"));
-			options.setExperimentalOption("prefs",chromePrefs);
+//			System.setProperty("webdriver.chrome.driver", config.getChromePath());
+//			
+//			String downloadFile=System.getProperty("user.dir") + File.separator + "DownloadFile";
+//			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+//			chromePrefs.put("profile.default_content_settings.popups", 0);
+//			chromePrefs.put("download.default_directory", downloadFile);
+//			//options.addExtensions(new File(".//Extensions/extension_3_17_1_0.crx"));
+//			options.setExperimentalOption("prefs",chromePrefs);
 			driver=new ChromeDriver(options);
 //			driver=new ChromeDriver();
 			break;
